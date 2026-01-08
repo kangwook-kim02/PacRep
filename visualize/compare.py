@@ -3,19 +3,6 @@ from matplotlib import font_manager, rc
 import platform
 import numpy as np
 
-# # 한글 폰트 설정
-# if platform.system() == 'Linux':
-#     plt.rcParams['font.family'] = 'Nanum'  # 우분투용
-# elif platform.system() == 'Windows':
-#     plt.rcParams['font.family'] = 'Malgun Gothic'  # 윈도우용
-# else:
-#     plt.rcParams['font.family'] = 'AppleGothic'  # macOS용
-
-# plt.rcParams['axes.unicode_minus'] = False  # 음수 부호 깨짐 방지
-
-# ---------------------------
-# 실험별 정확도 (표 2, 4, 6)
-# ---------------------------
 
 tasks = ['task1', 'task2', 'task3', 'task4', 'task5', 'task6']
 
@@ -28,9 +15,8 @@ acc_perflow = [0.9779, 0.7747, 1.0000, 0.8588, 1.0000, 0.8215]
 # 표 6 (Payload removed)
 acc_payload = [0.9731, 0.6173, 1.0000, 0.8342, 0.9964, 0.6634]
 
-# ---------------------------
+
 # 그래프 설정
-# ---------------------------
 x = np.arange(len(tasks))
 width = 0.25
 plt.rcParams['font.size'] = 14 
