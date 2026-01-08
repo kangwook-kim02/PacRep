@@ -1,8 +1,3 @@
-# 전처리 과정
-# 1. pcap 파일에서 Raw 패킷 추출하여 텍스트 파일로 저장
-# 2. 각 텍스트 파일에서 토큰화된 데이터를 추출 후 트리플렛 형태로 변환
-# 3. 트리플릿 데이터를 train, valid, test로 분할하여 저장
-
 from scapy.all import *
 from tqdm import tqdm
 import json
