@@ -11,7 +11,7 @@ Source code for KDD'22 paper: "[Packet Representation Learning for Traffic Class
 # Requirements
 - python: 3.8
 - pytorch: 1.8.1
-- numpy: 1.19.P
+- numpy: 1.19.0
 - scikit-learn: 0.24.2
 - tensorboard: 2.6.0
 - protobuf <= 3.20.0
